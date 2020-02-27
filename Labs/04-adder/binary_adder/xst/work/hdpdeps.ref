@@ -1,0 +1,28 @@
+V3 15
+FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/full_adder.vhd 2020/02/27.10:31:57 P.20131013
+EN work/full_adder 1582799900 \
+      FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/full_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/Behavioral 1582799901 \
+      FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/full_adder.vhd \
+      EN work/full_adder 1582799900 CP work/half_adder
+FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/half_adder.vhd 2020/02/27.10:30:13 P.20131013
+EN work/half_adder 1582799898 \
+      FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/half_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/half_adder/Behavioral 1582799899 \
+      FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/half_adder.vhd \
+      EN work/half_adder 1582799898
+FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/hex_to_7seg.vhd 2020/02/20.10:58:33 P.20131013
+EN work/hex_to_7seg 1582799902 \
+      FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/hex_to_7seg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/hex_to_7seg/Behavioral 1582799903 \
+      FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/hex_to_7seg.vhd \
+      EN work/hex_to_7seg 1582799902
+EN work/top 0 \
+      FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/top2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 0 \
+      FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/top2.vhd \
+      EN work/top 0 CP work/full_adder CP work/hex_to_7seg
