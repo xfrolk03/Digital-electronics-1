@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> 
 Reading design: top.prj
@@ -89,13 +89,159 @@ Entity <hex_to_7seg> compiled.
 Entity <hex_to_7seg> (Architecture <Behavioral>) compiled.
 Compiling vhdl file "/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/top2.vhd" in Library work.
 Entity <top> compiled.
-ERROR:HDLParsers:1401 - "/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/top2.vhd" Line 117. Object LD0_CPLD of mode OUT can not be read.
+Entity <top> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <top> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <full_adder> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <hex_to_7seg> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <half_adder> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <top> in library <work> (Architecture <Behavioral>).
+Entity <top> analyzed. Unit <top> generated.
+
+Analyzing Entity <full_adder> in library <work> (Architecture <Behavioral>).
+Entity <full_adder> analyzed. Unit <full_adder> generated.
+
+Analyzing Entity <half_adder> in library <work> (Architecture <Behavioral>).
+Entity <half_adder> analyzed. Unit <half_adder> generated.
+
+Analyzing Entity <hex_to_7seg> in library <work> (Architecture <Behavioral>).
+Entity <hex_to_7seg> analyzed. Unit <hex_to_7seg> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <hex_to_7seg>.
+    Related source file is "/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/hex_to_7seg.vhd".
+    Found 16x7-bit ROM for signal <seg_o>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <hex_to_7seg> synthesized.
+
+
+Synthesizing Unit <half_adder>.
+    Related source file is "/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/half_adder.vhd".
+    Found 1-bit xor2 for signal <sum_o>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <half_adder> synthesized.
+
+
+Synthesizing Unit <full_adder>.
+    Related source file is "/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/full_adder.vhd".
+Unit <full_adder> synthesized.
+
+
+Synthesizing Unit <top>.
+    Related source file is "/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/top2.vhd".
+Unit <top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Xors                                                 : 8
+ 1-bit xor2                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <top> ...
+
+Optimizing unit <hex_to_7seg> ...
+
+Optimizing unit <half_adder> ...
+
+Optimizing unit <full_adder> ...
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : top.ngr
+Top Level Output File Name         : top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+Target Technology                  : CoolRunner2 CPLDs
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 20
+
+Cell Usage :
+# BELS                             : 141
+#      AND2                        : 36
+#      AND3                        : 1
+#      AND4                        : 1
+#      GND                         : 1
+#      INV                         : 48
+#      OR2                         : 46
+#      VCC                         : 1
+#      XOR2                        : 7
+# IO Buffers                       : 20
+#      IBUF                        : 8
+#      OBUF                        : 12
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.15 secs
+ 
 --> 
 
 
-Total memory usage is 489156 kilobytes
+Total memory usage is 519076 kilobytes
 
-Number of errors   :    1 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

@@ -1,0 +1,5 @@
+EN binary_cnt NULL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/binary_cnt.vhd sub00/vhpl02 1583405557
+AR binary_cnt behavioral /home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/binary_cnt.vhd sub00/vhpl03 1583405558
+EN top NULL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/top.vhd sub00/vhpl04 1583405559
+AR clock_enable behavioral /home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/clock_enable.vhd sub00/vhpl01 1583405556
+EN clock_enable NULL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/clock_enable.vhd sub00/vhpl00 1583405555

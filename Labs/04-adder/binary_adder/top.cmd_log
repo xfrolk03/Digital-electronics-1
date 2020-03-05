@@ -1,1 +1,2 @@
 xst -intstyle ise -ifn "/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/binary_adder/top.xst" -ofn "/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/binary_adder/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc /home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/coolrunner.ucf -uc /home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board.ucf -p xc2c256-TQ144-6 top.ngc top.ngd  

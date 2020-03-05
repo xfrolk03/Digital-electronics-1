@@ -1,0 +1,3 @@
+vhdl work "/home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/clock_enable.vhd"
+vhdl work "/home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/binary_cnt.vhd"
+vhdl work "/home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/top.vhd"

@@ -114,10 +114,10 @@ begin
 
     -- Show carry output bit on Coolrunner-II LED
     -- WRITE YOUR CODE HERE
-    s_carryOut <= LD0_CPLD;
+    LD0_CPLD <= s_carryOut;
 
     -- Show two 4-bit inputs on CPLD expansion LEDs
     -- WRITE YOUR CODE HERE
-     --<= LD15_CPLD
+     --LD15_CPLD <= 
 
 end architecture Behavioral;

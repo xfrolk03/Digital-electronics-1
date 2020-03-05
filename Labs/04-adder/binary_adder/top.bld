@@ -1,0 +1,344 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -uc
+/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/coolrunner.ucf
+-uc
+/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board.ucf
+-p xc2c256-TQ144-6 top.ngc top.ngd
+
+Reading NGO file
+"/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/binary_adder/
+top.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/coolrunner.uc
+f" ...
+Annotating constraints to design from ucf file
+"/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board.uc
+f" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <NET BTN1        LOC = P94;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/coolrunner
+   .ucf(16)]: NET "BTN1" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET BTN1        LOC = P94;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/coolrunner
+   .ucf(16)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET BTN0        LOC = P143;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/coolrunner
+   .ucf(17)]: NET "BTN0" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET BTN0        LOC = P143;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/coolrunner
+   .ucf(17)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SW1         LOC = P124;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/coolrunner
+   .ucf(20)]: NET "SW1" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SW1         LOC = P124;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/coolrunner
+   .ucf(20)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SW0         LOC = P39;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/coolrunner
+   .ucf(21)]: NET "SW0" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SW0         LOC = P39;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/coolrunner
+   .ucf(21)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SW15_CPLD           LOC = P9;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(30)]: NET "SW15_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SW15_CPLD           LOC = P9;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(30)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SW14_CPLD           LOC = P10;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(31)]: NET "SW14_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SW14_CPLD           LOC = P10;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(31)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SW13_CPLD           LOC = P6;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(32)]: NET "SW13_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SW13_CPLD           LOC = P6;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(32)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SW12_CPLD           LOC = P7;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(33)]: NET "SW12_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SW12_CPLD           LOC = P7;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(33)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SW7_CPLD            LOC = P140;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(38)]: NET "SW7_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SW7_CPLD            LOC = P140;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(38)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SW6_CPLD            LOC = P142;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(39)]: NET "SW6_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SW6_CPLD            LOC = P142;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(39)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SW5_CPLD            LOC = P138;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(40)]: NET "SW5_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SW5_CPLD            LOC = P138;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(40)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET SW4_CPLD            LOC = P139;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(41)]: NET "SW4_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SW4_CPLD            LOC = P139;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(41)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LD15_CPLD           LOC = P118;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(56)]: NET "LD15_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LD15_CPLD           LOC = P118;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(56)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LD14_CPLD           LOC = P119;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(57)]: NET "LD14_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LD14_CPLD           LOC = P119;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(57)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LD13_CPLD           LOC = P116;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(58)]: NET "LD13_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LD13_CPLD           LOC = P116;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(58)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LD12_CPLD           LOC = P117;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(59)]: NET "LD12_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LD12_CPLD           LOC = P117;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(59)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LD11_CPLD           LOC = P114;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(60)]: NET "LD11_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LD11_CPLD           LOC = P114;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(60)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LD10_CPLD           LOC = P115;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(61)]: NET "LD10_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LD10_CPLD           LOC = P115;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(61)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LD9_CPLD            LOC = P112;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(62)]: NET "LD9_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LD9_CPLD            LOC = P112;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(62)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LD8_CPLD            LOC = P113;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(63)]: NET "LD8_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LD8_CPLD            LOC = P113;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(63)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LD7_CPLD            LOC = P103;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(64)]: NET "LD7_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LD7_CPLD            LOC = P103;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(64)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LD6_CPLD            LOC = P104;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(65)]: NET "LD6_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LD6_CPLD            LOC = P104;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(65)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LD5_CPLD            LOC = P101;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(66)]: NET "LD5_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LD5_CPLD            LOC = P101;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(66)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LD4_CPLD            LOC = P102;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(67)]: NET "LD4_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LD4_CPLD            LOC = P102;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(67)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LD3_CPLD            LOC = P98;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(68)]: NET "LD3_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LD3_CPLD            LOC = P98;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(68)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LD2_CPLD            LOC = P100;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(69)]: NET "LD2_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LD2_CPLD            LOC = P100;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(69)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET LD1_CPLD            LOC = P96;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(70)]: NET "LD1_CPLD" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET LD1_CPLD            LOC = P96;>
+   [/home/lab661/Documents/frolka/Digital-electronics-1/Labs/04-adder/cpld_board
+   .ucf(70)]' could not be found and so the Locate constraint will be removed.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:    27
+  Number of warnings:  27
+
+Total memory usage is 392964 kilobytes
+
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   4 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "top.bld"...

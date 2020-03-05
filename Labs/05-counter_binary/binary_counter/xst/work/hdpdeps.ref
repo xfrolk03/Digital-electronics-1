@@ -1,0 +1,22 @@
+V3 12
+FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/binary_cnt.vhd 2020/03/05.10:36:13 P.20131013
+EN work/binary_cnt 1583405557 \
+      FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/binary_cnt.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/binary_cnt/Behavioral 1583405558 \
+      FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/binary_cnt.vhd \
+      EN work/binary_cnt 1583405557
+FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/clock_enable.vhd 2020/03/05.10:32:27 P.20131013
+EN work/clock_enable 1583405555 \
+      FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/clock_enable.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clock_enable/Behavioral 1583405556 \
+      FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/clock_enable.vhd \
+      EN work/clock_enable 1583405555
+FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/top.vhd 2020/03/05.11:51:34 P.20131013
+EN work/top 0 \
+      FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 0 \
+      FL /home/lab661/Documents/frolka/Digital-electronics-1/Labs/05-counter_binary/binary_counter/top.vhd \
+      EN work/top 0 CP work/clock_enable CP work/binary_cnt CP work/hex_to_7seg
