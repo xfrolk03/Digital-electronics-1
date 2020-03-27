@@ -5,4 +5,4 @@
 
 # Statement diagram
 
-![statement_diagram](statement diagram.jpg)
+![statement_diagram](statement_diagram.jpg)
