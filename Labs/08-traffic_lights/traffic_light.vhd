@@ -80,7 +80,8 @@ begin
                         count <= X"0";
                     end if;
 			    
-       			when others => state <= RG;
+       		when others => 
+			state <= RG;
              end case;
          end if;
     end process;
