@@ -9,7 +9,8 @@ Vlastní ALU (Arithmetic Logic Unit) jednotka. Možnost výběru instrukcí a vs
 Základní struktura projektu:
 + [Hex_to_7seg](hex_to_7seg.vhd)    -- výstup na sedmisegmentovém displeji
 + [Clock_enable](clock_enable.vhd)  -- udává výstup hodinovému signálu
-+ [ALU.vhd](ALU.vhd)                -- provádí zpracování operací
++ [ALU](ALU.vhd)                -- provádí zpracování operací
++ [Top](top.vhd)
 
 ## Úvod do problematiky
 
@@ -17,7 +18,8 @@ Aritmeticko-Logická jednotka je základní stavební jednotkou výkonnostních 
 
 ## Zpracování projektu
 
-Ačkoliv jsme se snažili zahrnout do našeho projektu taktéž operaci dělení, řešení se nakonec zdálo být zcela mimo naše kompetence. Proto jsme od implmentace této funkce nakonec upustili.
+
+Ačkoliv jsme se snažili zahrnout do našeho projektu taktéž operaci dělení, řešení se nakonec zdálo být zcela mimo naše kompetence. Proto jsme od implementace této funkce nakonec upustili.
 
 
 ### Obsah
