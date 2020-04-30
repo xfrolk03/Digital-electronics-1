@@ -31,6 +31,8 @@ Aritmeticko-Logická jednotka je základní stavební jednotkou výkonnostních 
 
 Ačkoliv jsme se snažili zahrnout do našeho projektu taktéž operaci dělení, řešení se nakonec zdálo být zcela mimo naše kompetence. Proto jsme od implementace této funkce nakonec upustili.
 
+![Schéma zapojení](https://github.com/xfrolk03/Digital-electronics-1/blob/master/Labs/09_Project/images/TOP.png)
+
 
 ## Závěr
 
