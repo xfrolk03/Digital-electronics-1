@@ -30,7 +30,7 @@ Blokové schéma ALU jednotky
 ## Zpracování projektu
 
 
-Ačkoliv jsme se snažili zahrnout do našeho projektu taktéž operaci dělení, řešení se nakonec zdálo být zcela mimo naše kompetence. Proto jsme od implementace této funkce nakonec upustili.
+Ačkoliv jsme se snažili zahrnout do našeho projektu taktéž operaci dělení, řešení se nakonec zdálo být příliš složité. Proto jsme od implementace této funkce nakonec upustili.
 
 Zapojení TOP modulu
 ![Schéma zapojení](https://github.com/xfrolk03/Digital-electronics-1/blob/master/Labs/09_Project/images/TOP.png)
@@ -38,7 +38,7 @@ Zapojení TOP modulu
 
 ## Závěr
 
-Postupným zpracováním a čerpáním především ze zrojových kódů ze cvičení, jsme nakonec sestavili jednoduchou ALU jednotku. Jak můžeme vidět na obrázku ze simulací, prvotním problémem je nefunkční hodinový signál. Ten se nám přes veškerou snahu nepodařilo opravit. 
+Postupným zpracováním a čerpáním především ze zrojových kódů ze cvičení, jsme nakonec sestavili jednoduchou ALU jednotku. Jak můžeme vidět na obrázku ze simulací.
 
 ## Literatura
 
