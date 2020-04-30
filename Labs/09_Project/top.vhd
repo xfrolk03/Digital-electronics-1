@@ -14,16 +14,16 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity top is
 port(
 
-	inp_A 		: in std_logic_vector(3 downto 0);
-	inp_B 		: in std_logic_vector(3 downto 0);
+	inp_A 		 : in std_logic_vector(3 downto 0);
+	inp_B 		 : in std_logic_vector(3 downto 0);
 	choose_operation : in std_logic_vector(3 downto 0);
     
-   clk_i      	: in std_logic;
-	BTN0 		  	: IN std_logic;   							-- reset
+   	clk_i      	 : in std_logic;
+	BTN0 		 : IN std_logic;   			-- reset
 	 
-	disp_seg_o 	: out std_logic_vector(6 downto 0);
-	underflow_o : out std_logic;
-	carry_o	  	: out std_logic
+	disp_seg_o 	 : out std_logic_vector(6 downto 0);
+	underflow_o 	 : out std_logic;
+	carry_o	  	 : out std_logic
 	);
 end top;
 
@@ -36,37 +36,37 @@ architecture Behavioral of top is
 	);
 	port (
 		clk_i          : in  std_logic;
-		srst_n_i       : in  std_logic; -- Synchronous reset (active low)
+		srst_n_i       : in  std_logic;
 		clock_enable_o : out std_logic
 	);
 	end component;
 
 	-- HEX_TO_7SEG
 	component hex_to_7seg is
-   port(
+   	port(
 		hex_i: in  std_logic_vector(3 downto 0);
-      seg_o: out std_logic_vector(6 downto 0)
+      		seg_o: out std_logic_vector(6 downto 0)
 	);
 	end component;
 
 	-- ALU
 	component ALU is
-   port (
+   	port (
 	 	A     		: in   STD_LOGIC_VECTOR(3 downto 0);  
 		B     		: in   STD_LOGIC_VECTOR(3 downto 0);
-		OP   			: in   STD_LOGIC_VECTOR(3 downto 0);
+		OP   		: in   STD_LOGIC_VECTOR(3 downto 0);
 		clk_i 		: in 	 STD_LOGIC;
-		srst_n_i		: in 	 STD_LOGIC;
+		srst_n_i	: in 	 STD_LOGIC;
 	 
 		ALU_Out	 	: out  STD_LOGIC_VECTOR(3 downto 0); 
-		underflow_o : out  STD_LOGIC;
-		carry_o 		: out  STD_LOGIC
+		underflow_o 	: out  STD_LOGIC;
+		carry_o 	: out  STD_LOGIC
 	);	 
 	end component;
 
 	signal display_value	: std_logic_vector(3 downto 0) := (others => '0'); 				
-	signal alu_clk			: std_logic := '0';
-	signal undf				: std_logic := '0';
+	signal alu_clk		: std_logic := '0';
+	signal undf		: std_logic := '0';
 
 begin
 
