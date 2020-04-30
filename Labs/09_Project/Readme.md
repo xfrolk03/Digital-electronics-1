@@ -7,9 +7,9 @@ Vlastní ALU (Arithmetic Logic Unit) jednotka. Možnost výběru instrukcí a vs
 
 
 Základní struktura projektu:
-+ [Hex_to_7seg](hex_to_7seg.vhd)   -- výstup na sedmisegmentovém displeji
-+ Clock_enable.vhd  -- udává výstup hodinovému signálu
-+ ALU.vhd           -- provádí zpracování operací
++ [Hex_to_7seg](hex_to_7seg.vhd)    -- výstup na sedmisegmentovém displeji
++ [Clock_enable](clock_enable.vhd)  -- udává výstup hodinovému signálu
++ [ALU.vhd](alu.vhd)                -- provádí zpracování operací
 
 ## Úvod do problematiky
 
