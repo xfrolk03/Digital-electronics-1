@@ -38,6 +38,8 @@ Zapojení TOP modulu
 
 ## Závěr
 
+Postupným zpracováním a čerpáním především ze zrojových kódů ze cvičení, jsme nakonec sestavili jednoduchou ALU jednotku. Jak můžeme vidět na obrázku ze simulací, prvotním problémem je nefunkční hodinový signál. Ten se nám přes veškerou snahu nepodařilo opravit. 
+
 ## Literatura
 
 https://moodle.sspbrno.cz/pluginfile.php/3103/mod_resource/content/0/Procesory_a_jejich_strojovy_kod.pdf
