@@ -31,3 +31,6 @@ https://r.search.yahoo.com/_ylt=AwrEeB34i6peHg8A2wMPxQt.;_ylu=X3oDMTBydWNmY2MwBG
 
 https://stackoverflow.com/questions/43177341/how-to-implement-a-4-bit-alu-in-vhdl-using-an-opcode
 
+https://electronics.stackexchange.com/questions/403678/vhdl-multiplication-for-std-logic-vector?fbclid=IwAR1OlKfRpCJlGJws7PwdrLcSbD7NVw7uhc9sngfJLhvd6KWRN0-JJYuYHok
+
+https://www.bitweenie.com/listings/vhdl-type-conversion/?fbclid=IwAR3dGbnlIFnWptk7d-CAELUwEmx3g3Y7BUlvEjUbB-SzkGYhmYrNE3eoQXE
