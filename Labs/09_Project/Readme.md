@@ -37,7 +37,7 @@ Zapojení TOP modulu
 
 ## Závěr
 
-Postupným zpracováním a čerpáním především ze zrojových kódů ze cvičení, jsme nakonec sestavili jednoduchou ALU jednotku. V této složce se můžete podívat na testbenche a screenshoty ze simulací !https://github.com/xfrolk03/Digital-electronics-1/tree/master/Labs/09_Project/images
+Postupným zpracováním a čerpáním především ze zrojových kódů ze cvičení, jsme nakonec sestavili jednoduchou ALU jednotku. V této složce se můžete podívat na testbenche a screenshoty ze simulací ![Složka simulací](https://github.com/xfrolk03/Digital-electronics-1/tree/master/Labs/09_Project/images)
 
 ## Literatura
 
