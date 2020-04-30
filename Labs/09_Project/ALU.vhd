@@ -5,7 +5,7 @@
 -- Create Date:    06:04:57 04/20/2020 
 -- Design Name: 
 -- Module Name:    ALU - Behavioral 
--- Project Name: 	 ALU
+-- Project Name:   ALU
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -17,12 +17,12 @@ entity ALU is
 	 
 	 A     		: in   STD_LOGIC_VECTOR(3 downto 0);  
 	 B     		: in   STD_LOGIC_VECTOR(3 downto 0);
-    OP   		: in   STD_LOGIC_VECTOR(3 downto 0);
+    	 OP   		: in   STD_LOGIC_VECTOR(3 downto 0);
 	 clk_i 		: in 	 STD_LOGIC;
 	 srst_n_i	: in 	 STD_LOGIC;
 	 
-    ALU_Out	 	: out  STD_LOGIC_VECTOR(3 downto 0); --vrací výsledek
-	 underflow_o: out  STD_LOGIC;
+    	 ALU_Out	: out  STD_LOGIC_VECTOR(3 downto 0); --vrací výsledek
+	 underflow_o	: out  STD_LOGIC;
 	 carry_o 	: out  STD_LOGIC
 	 );
 	 
@@ -40,8 +40,8 @@ begin
    process(clk_i)
 	begin
 		if (rising_edge(clk_i)) then
-			carry_o 		<= '0';
-			underflow_o <= '0';
+			carry_o 	<= '0';
+			underflow_o 	<= '0';
 
 			case(OP)is	  
 				when "0000" => 
@@ -53,7 +53,7 @@ begin
 			
 				when "0001" => 
 					if((inp_A - inp_B) < "0000") then
-						underflow_o <= '0';              --signal podteceni
+						underflow_o <= '0';         --signal podteceni
 					end if;
 					
 					RES <= inp_A - inp_B;
@@ -67,7 +67,7 @@ begin
 								
 				when "0011" => 
 					if((inp_A - 1) < "0000") then
-						underflow_o <= '0';					--signal podteceni
+						underflow_o <= '0';	   --signal podteceni
 					end if;
 					
 					RES <= inp_A - 1;
@@ -83,7 +83,7 @@ begin
 					RES <= inp_A * inp_B;
 					if((inp_A * inp_B) > "1111") then
 						carry_o <= '1';
-					end if;										--zobrazeni ve dvou cifrach??
+					end if;				   --zobrazeni ve dvou cifrach??
 					
 					RES <= inp_A * inp_B;
 					
