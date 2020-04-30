@@ -5,7 +5,8 @@
 2. [Úvod do problematiky](#úvod-do-problematiky)
    []
 3. [Zpracování projektu](#zpracování-projektu)
-4. [Literatura](#Literatura)
+4. [Závěr]((#Závěr)
+5. [Literatura](#Literatura)
 
 ## Zadání projektu
 Samostatné nastudování zadané problematiky, návrh řešení a jeho simulace v prostředí Xilinx ISE.
@@ -28,6 +29,8 @@ Aritmeticko-Logická jednotka je základní stavební jednotkou výkonnostních 
 
 Ačkoliv jsme se snažili zahrnout do našeho projektu taktéž operaci dělení, řešení se nakonec zdálo být zcela mimo naše kompetence. Proto jsme od implementace této funkce nakonec upustili.
 
+
+## Závěr
 
 ## Literatura
 
