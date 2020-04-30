@@ -1,0 +1,25 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/janfrolka/projekt/druhytestbench7SEG_isim_beh.exe -prj /home/janfrolka/projekt/druhytestbench7SEG_beh.prj work.druhytestbench7SEG 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+ERROR:HDLCompiler:488 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 58: Illegal identifier : _period
+ERROR:HDLCompiler:488 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 69: Illegal identifier : _process
+ERROR:HDLCompiler:488 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 72: Illegal identifier : _period
+ERROR:HDLCompiler:488 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 74: Illegal identifier : _period
+ERROR:HDLCompiler:488 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 84: Illegal identifier : _period
+Parsing VHDL file "/home/janfrolka/projekt/hex_to_7seg.vhd" into library work
+Parsing VHDL file "/home/janfrolka/projekt/druhytestbench7SEG.vhd" into library work
+ERROR:HDLCompiler:806 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 58: Syntax error near "<".
+ERROR:HDLCompiler:488 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 58: Illegal identifier : _period
+ERROR:HDLCompiler:806 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 69: Syntax error near "<".
+ERROR:HDLCompiler:488 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 69: Illegal identifier : _process
+ERROR:HDLCompiler:806 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 71: Syntax error near "<".
+ERROR:HDLCompiler:488 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 72: Illegal identifier : _period
+ERROR:HDLCompiler:488 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 74: Illegal identifier : _period
+WARNING:HDLCompiler:1369 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 69: Possible infinite loop; process does not have a wait statement
+ERROR:HDLCompiler:806 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 84: Syntax error near "<".
+ERROR:HDLCompiler:488 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 84: Illegal identifier : _period
+WARNING:HDLCompiler:1369 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 79: Possible infinite loop; process does not have a wait statement
+ERROR:HDLCompiler:854 - "/home/janfrolka/projekt/druhytestbench7SEG.vhd" Line 38: Unit <behavior> ignored due to previous errors.
+VHDL file /home/janfrolka/projekt/druhytestbench7SEG.vhd ignored due to errors
