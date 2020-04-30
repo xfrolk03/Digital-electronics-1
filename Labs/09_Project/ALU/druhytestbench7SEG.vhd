@@ -55,7 +55,7 @@ ARCHITECTURE behavior OF druhytestbench7SEG IS
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
-   constant <clock>_period : time := 100 ms;
+   --constant clock_period : time := 100 ms;
  
 BEGIN
  
@@ -66,13 +66,13 @@ BEGIN
         );
 
    -- Clock process definitions
-   <clock>_process :process
-   begin
-		<clock> <= '0';
-		wait for <clock>_period/2;
-		<clock> <= '1';
-		wait for <clock>_period/2;
-   end process;
+--   clock_process :process
+--   begin
+--		clock <= '0';
+--		wait for clock_period/2;
+--		clock <= '1';
+--		wait for clock_period/2;
+--   end process;
  
 
    -- Stimulus process
@@ -81,9 +81,10 @@ BEGIN
       -- hold reset state for 100 ns.
       wait for 100 ns;	
 
-      wait for <clock>_period*10;
+      --wait for clock_period*10;
 
       -- insert stimulus here 
+		hex_i <= "1001";
 
       wait;
    end process;

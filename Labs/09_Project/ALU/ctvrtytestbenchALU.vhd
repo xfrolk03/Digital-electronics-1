@@ -46,7 +46,7 @@ ARCHITECTURE behavior OF ctvrtytestbenchALU IS
          OP : IN  std_logic_vector(3 downto 0);
          clk_i : IN  std_logic;
          srst_n_i : IN  std_logic;
-         ALU_Out : OUT  std_logic_vector(3 downto 0);
+         ALU_Out : OUT  std_logic_vector(7 downto 0);
          underflow_o : OUT  std_logic;
          carry_o : OUT  std_logic
         );
@@ -61,12 +61,12 @@ ARCHITECTURE behavior OF ctvrtytestbenchALU IS
    signal srst_n_i : std_logic := '0';
 
  	--Outputs
-   signal ALU_Out : std_logic_vector(3 downto 0);
+   signal ALU_Out : std_logic_vector(7 downto 0);
    signal underflow_o : std_logic;
    signal carry_o : std_logic;
 
    -- Clock period definitions
-   constant clk_i_period : time := 10 ns;
+   constant clk_i_period : time := 50 ns;
  
 BEGIN
  
@@ -96,11 +96,36 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-      wait for 100 ns;	
+		srst_n_i <= '0';
+      wait for 100 ns;
+		srst_n_i <= '1';
 
-      wait for clk_i_period*10;
-
+      wait for clk_i_period;
       -- insert stimulus here 
+		
+		A <= "1010";
+		B <= "1111";
+		OP <= "0101";		--nasobeni
+		
+		wait for 300 ns;
+		
+		OP <= "0000";		--scitani
+		
+		wait for 300 ns;
+		
+		OP <= "0001";		--odcitani
+		
+		wait for 300 ns;
+		
+		OP <= "0010";
+		
+		wait for 300 ns;
+		
+		OP <= "1000";
+		
+		wait for 300 ns;
+		
+		OP <= "1101";
 
       wait;
    end process;

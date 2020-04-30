@@ -57,7 +57,6 @@ ARCHITECTURE behavior OF tretitestbenchCLKEN IS
 
    -- Clock period definitions
    constant clk_i_period : time := 10 ns;
-   constant clock_enable_o_period : time := 10 ns;
  
 BEGIN
  
@@ -76,21 +75,14 @@ BEGIN
 		clk_i <= '1';
 		wait for clk_i_period/2;
    end process;
- 
-   clock_enable_o_process :process
-   begin
-		clock_enable_o <= '0';
-		wait for clock_enable_o_period/2;
-		clock_enable_o <= '1';
-		wait for clock_enable_o_period/2;
-   end process;
- 
 
    -- Stimulus process
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-      wait for 100 ns;	
+		srst_n_i <= '0';
+      wait for 100 ns;
+		srst_n_i <= '1';		
 
       wait for clk_i_period*10;
 
