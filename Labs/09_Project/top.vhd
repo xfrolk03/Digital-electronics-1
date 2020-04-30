@@ -5,7 +5,7 @@
 -- Create Date:    15:16:57 04/20/2020 
 -- Design Name: 
 -- Module Name:    top - Behavioral 
--- Project Name: 	 ALU
+-- Project Name:   ALU
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
