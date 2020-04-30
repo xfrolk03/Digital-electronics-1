@@ -5,7 +5,7 @@
 2. [Úvod do problematiky](#úvod-do-problematiky)
    []
 3. [Zpracování projektu](#zpracování-projektu)
-4. [Závěr]((#Závěr)
+4. [Závěr](#závěr)
 5. [Literatura](#Literatura)
 
 ## Zadání projektu
