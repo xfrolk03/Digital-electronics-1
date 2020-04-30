@@ -19,7 +19,7 @@ Aritmeticko-Logická jednotka je základní stavební jednotkou výkonnostních 
 
 
 
-# Literatura
+## Literatura
 
 https://moodle.sspbrno.cz/pluginfile.php/3103/mod_resource/content/0/Procesory_a_jejich_strojovy_kod.pdf
 
