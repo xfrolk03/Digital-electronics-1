@@ -17,7 +17,7 @@ Základní struktura projektu:
 + [Hex_to_7seg](hex_to_7seg.vhd)    -- výstup na sedmisegmentovém displeji
 + [Clock_enable](clock_enable.vhd)  -- udává výstup hodinovému signálu
 + [ALU](ALU.vhd)                -- provádí zpracování operací
-+ [Top](top.vhd)
++ [Top](top.vhd)                -- modul propojející všechny ostatní moduly do jednoho
 
 ## Úvod do problematiky
 
