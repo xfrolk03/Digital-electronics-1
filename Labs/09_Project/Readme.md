@@ -34,3 +34,7 @@ https://stackoverflow.com/questions/43177341/how-to-implement-a-4-bit-alu-in-vhd
 https://electronics.stackexchange.com/questions/403678/vhdl-multiplication-for-std-logic-vector?fbclid=IwAR1OlKfRpCJlGJws7PwdrLcSbD7NVw7uhc9sngfJLhvd6KWRN0-JJYuYHok
 
 https://www.bitweenie.com/listings/vhdl-type-conversion/?fbclid=IwAR3dGbnlIFnWptk7d-CAELUwEmx3g3Y7BUlvEjUbB-SzkGYhmYrNE3eoQXE
+
+https://github.com/tomas-fryza/Digital-electronics-1/blob/master/Docs/coolrunner-ii_rm.pdf
+
+https://github.com/tomas-fryza/Digital-electronics-1/blob/master/Docs/vhdl_cheatsheet.pdf
