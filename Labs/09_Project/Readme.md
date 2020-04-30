@@ -15,6 +15,10 @@ Základní struktura projektu:
 
 Aritmeticko-Logická jednotka je základní stavební jednotkou výkonnostních zařízení. Provádí sčítání, odčítání, násobení, dělení,bitový posun a základní logické operace jako jsou konjunkce, disjunkce, negace, XOR, XNOR a jiné.
 
+## Zpracování projektu
+
+Ačkoliv jsme se snažili zahrnout do našeho projektu taktéž operaci dělení, řešení se nakonec zdálo být zcela mimo naše kompetence. Proto jsme od implmentace této funkce nakonec upustili.
+
 
 ### Obsah
 1. [Zadání](#zadání-projektu)
