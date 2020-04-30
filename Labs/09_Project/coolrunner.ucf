@@ -33,6 +33,11 @@ NET inp_A<2> LOC = #cislo pinu(prepinac)
 NET inp_A<1> LOC = #cislo pinu(prepinac)
 NET inp_A<0> LOC = #cislo pinu(prepinac)
 
+NET inp_B<3> LOC = #cislo pinu(prepinac)
+NET inp_B<2> LOC = #cislo pinu(prepinac)
+NET inp_B<1> LOC = #cislo pinu(prepinac)
+NET inp_B<0> LOC = #cislo pinu(prepinac)
+
 #-----------------------------------------------------------------------
 # Four-digit time-multiplexed seven-segment LED display
 #-----------------------------------------------------------------------
