@@ -3,8 +3,8 @@
 ## Obsah
 1. [Zadání projektu](#zadání-projektu)
 2. [Úvod do problematiky](#úvod-do-problematiky)
-3. [Zpracování projektu](#zpracovani projektu)
-4. [Literatura](#)
+3. [Zpracování projektu](#zpracovani-projektu)
+4. [Literatura](#Literatura)
 
 ## Zadání projektu
 Samostatné nastudování zadané problematiky, návrh řešení a jeho simulace v prostředí Xilinx ISE.
