@@ -1,5 +1,11 @@
 # Aritmeticko logická jednotka
 
+## Obsah
+1. [Zadání projektu](#zadání-projektu)
+2. [Úvod do problematiky](#úvod-do-problematiky)
+3. [Zpracování projektu](#zpracovani projektu)
+4. [Literatura](#)
+
 ## Zadání projektu
 Samostatné nastudování zadané problematiky, návrh řešení a jeho simulace v prostředí Xilinx ISE.
 
@@ -21,10 +27,6 @@ Aritmeticko-Logická jednotka je základní stavební jednotkou výkonnostních 
 
 Ačkoliv jsme se snažili zahrnout do našeho projektu taktéž operaci dělení, řešení se nakonec zdálo být zcela mimo naše kompetence. Proto jsme od implementace této funkce nakonec upustili.
 
-
-### Obsah
-1. [Zadání](#zadání-projektu)
-2. [Úvod](#úvod-do-problematiky)
 
 ## Literatura
 
