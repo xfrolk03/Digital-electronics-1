@@ -1,9 +1,8 @@
-# Aritmeticko logická jednotka
+# Aritmeticko-logická jednotka
 
 ## Obsah
 1. [Zadání projektu](#zadání-projektu)
 2. [Úvod do problematiky](#úvod-do-problematiky)
-   []
 3. [Zpracování projektu](#zpracování-projektu)
 4. [Závěr](#závěr)
 5. [Literatura](#Literatura)
