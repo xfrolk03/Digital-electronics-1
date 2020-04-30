@@ -26,3 +26,6 @@ https://moodle.sspbrno.cz/pluginfile.php/3103/mod_resource/content/0/Procesory_a
 https://is.muni.cz/el/1433/podzim2004/PB151/um/index.html
 
 https://en.wikipedia.org/wiki/Arithmetic_logic_unit
+
+https://r.search.yahoo.com/_ylt=AwrEeB34i6peHg8A2wMPxQt.;_ylu=X3oDMTBydWNmY2MwBGNvbG8DYmYxBHBvcwM0BHZ0aWQDBHNlYwNzcg--/RV=2/RE=1588264056/RO=10/RU=https%3a%2f%2fwww.asicentrum.cz%2ffile%2fdownloads%2ffiles%2f3dil_a07808_440.pdf/RK=2/RS=gqs_idkdRRaRLrZ3sKbqZR8W6.8-
+
